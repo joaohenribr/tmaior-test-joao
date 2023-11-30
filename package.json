@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/joaohenribr/AvaliacaoTecnica#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
   }
 }

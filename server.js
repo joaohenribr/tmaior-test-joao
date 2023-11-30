@@ -7,3 +7,14 @@ var server = app.listen(3000, () => {
    });
 
 app.use(express.static(__dirname));
+
+var mongoose = require('mongoose');
+
+var dbUrl = 'mongodb+srv://username:password@ds257981.mongodb.net:57981/simple-chat'
+
+mongoose.connect(dbUrl , (err) => { 
+    console.log('mongodb connected',err);
+ })
+
+var Message = mongoose.model('Message',{ name : String, message : String})
+
