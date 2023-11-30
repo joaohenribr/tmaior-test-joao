@@ -1,0 +1,22 @@
+{
+  "name": "provatecnica",
+  "version": "1.0.0",
+  "description": "Prova tecnica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohenribr/AvaliacaoTecnica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaohenribr/AvaliacaoTecnica/issues"
+  },
+  "homepage": "https://github.com/joaohenribr/AvaliacaoTecnica#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
