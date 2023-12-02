@@ -23,9 +23,13 @@ mongoose
 var Message = mongoose.model('Message',{ name : String, message : String})
 
 app.get('/messages', (req, res) => {
-    Message.find({},(err, messages)=> {
+    Message.find({})
+    .then((messages) => {
         res.send(messages);
     })
+    .catch((err) => {
+        console.log(err);
+    });
 })
 
 app.get('/messages/:user', (req, res) => {
